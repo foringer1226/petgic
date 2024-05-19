@@ -1,0 +1,31 @@
+.order-modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.order-modal__wrapper {
+    width: 500px;
+    background: #F6AD82;
+    border-radius: 10px;
+    padding: 35px 75px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.order-modal__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-modal__content > input {
+    background: #fff;
+}

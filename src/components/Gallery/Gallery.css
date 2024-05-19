@@ -1,0 +1,39 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.gallery--header {
+    width: 100%;
+    background: #F59A66;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.gallery--header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.gallery--content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12vw, 1fr)); /* Автоматическое заполнение колонок с минимальной шириной элемента */
+    gap: 4vw;
+    padding: 0 1vw;
+}
+
+.gallery--item {
+    height: 12vw;
+    border: .5vw #F59A66 solid;
+    border-radius: .4vw;
+    background: #F59A66;
+}
+
+.gallery--img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: .4vw;
+}

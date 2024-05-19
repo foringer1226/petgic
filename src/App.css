@@ -1,38 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  background: #FAF8F1;
   min-height: 100vh;
+}
+
+main {
   display: flex;
   flex-direction: column;
+  padding: 0 10% 100px;
+  flex: 1;
+}
+
+.button {
+  padding: 15px 20px;
+  background: #F59A66;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 20px;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: .2s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  opacity: 0.8;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  text-decoration: none;
+  color: #000;
+  transition: .2s ease-in-out;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+input {
+  width: 100%;
+  padding: 15px 20px;
+  font-size: 20px;
+  border-radius: 7px;
+  background: transparent;
+  border: 1px solid #616060;
+  outline: none;
 }

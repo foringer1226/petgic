@@ -1,0 +1,56 @@
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.reviews--header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.reviews--header h1 {
+    font-size: 50px;
+    color: #353535;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.reviews--content {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    border: 8px solid #F49A66;
+    border-radius: 8px;
+    padding: 40px 25px;
+}
+
+.review--header {
+    border-bottom: 1px solid #F6BD9A;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.review--text {
+    padding-top: 25px;
+}
+
+.review--info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 100%;
+}
+
+.review--name {
+    font-size: 20px;
+    font-weight: 500;
+}
